@@ -22,6 +22,9 @@ html_copy_source = False
 html_show_sphinx = False
 
 html_extra_path = ['robots.txt', 'sitemap.xml']
+# Custom JS & Favicon
+html_js_files = ['chatbot.js']  # chatbot widget
+html_favicon = '_static/favicon.png'
 
 # Google & Bing Verification Meta Tags
 html_context = {
